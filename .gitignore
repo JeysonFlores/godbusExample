@@ -1,2 +1,2 @@
-./test/build
-./test/.xmake
+test/build
+test/.xmake
