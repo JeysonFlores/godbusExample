@@ -1,0 +1,104 @@
+{
+    ["gtk+3"] = {
+        version = "3.24.20",
+        links = {
+            "gtk-3",
+            "gdk-3",
+            "pangocairo-1.0",
+            "pango-1.0",
+            "harfbuzz",
+            "atk-1.0",
+            "cairo-gobject",
+            "cairo",
+            "gdk_pixbuf-2.0",
+            "gio-2.0",
+            "gobject-2.0",
+            "glib-2.0"
+        },
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/home/jeyson/.xmake/packages/g/gtk+3/latest/4e0143c97b65425b855ad5fd03038b6a/lib"
+            }
+        },
+        linkdirs = "/usr/lib/x86_64-linux-gnu",
+        sysincludedirs = {
+            "/usr/include/gtk-3.0",
+            "/usr/include/at-spi2-atk/2.0",
+            "/usr/include/at-spi-2.0",
+            "/usr/include/dbus-1.0",
+            "/usr/lib/x86_64-linux-gnu/dbus-1.0/include",
+            "/usr/include/gio-unix-2.0",
+            "/usr/include/cairo",
+            "/usr/include/pango-1.0",
+            "/usr/include/fribidi",
+            "/usr/include/harfbuzz",
+            "/usr/include/atk-1.0",
+            "/usr/include/pixman-1",
+            "/usr/include/uuid",
+            "/usr/include/freetype2",
+            "/usr/include/libpng16",
+            "/usr/include/gdk-pixbuf-2.0",
+            "/usr/include/libmount",
+            "/usr/include/blkid",
+            "/usr/include/glib-2.0",
+            "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+        },
+        __requirestr = "gtk+3",
+        __enabled = true
+    },
+    glib = {
+        version = "2.64.6",
+        links = {
+            "gio-2.0",
+            "gobject-2.0",
+            "glib-2.0",
+            "gthread-2.0",
+            "gmodule-2.0",
+            "ffi",
+            "ffi_pic",
+            "pcre",
+            "z"
+        },
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/home/jeyson/.xmake/packages/g/glib/2.71.0/4a5f04b222c1415eba391d15a19ad734/lib",
+                "/home/jeyson/.xmake/packages/o/openssl/1.1.1l/2287a61196e3437081b16b13bc565bb5/lib",
+                "/home/jeyson/.xmake/packages/c/ca-certificates/20211118/e3358c0405f0445981f309ffe0ff771e/lib",
+                "/home/jeyson/.xmake/packages/l/libffi/3.4.2/3760478a5e514b6396aaffaa11893feb/lib",
+                "/home/jeyson/.xmake/packages/z/zlib/1.2.11/832cf454431442ab9f0ec95e35aac34d/lib",
+                "/home/jeyson/.xmake/packages/p/python/3.9.6/e7531dee1e76415f90f489fb181937f7/lib",
+                "/home/jeyson/.xmake/packages/n/ninja/1.10.2/896d7cac28ca484eb4ee8a25d2c9c9c7/lib",
+                "/home/jeyson/.xmake/packages/m/meson/0.60.1/40884fc190cd4aae93c03a42db4f7f02/lib",
+                "/home/jeyson/.xmake/packages/p/pcre/8.45/9cd5a9d79f044f81a098d2df629c49af/lib",
+                "/home/jeyson/.xmake/packages/l/libiconv/1.16/86e4b1ca86b741449180f2851cd9186a/lib"
+            },
+            PYTHONPATH = {
+                "/home/jeyson/.xmake/packages/p/python/3.9.6/e7531dee1e76415f90f489fb181937f7/lib/python3.9/site-packages"
+            },
+            PATH = {
+                "/home/jeyson/.xmake/packages/p/python/3.9.6/e7531dee1e76415f90f489fb181937f7/bin",
+                "/home/jeyson/.xmake/packages/p/python/3.9.6/e7531dee1e76415f90f489fb181937f7/bin",
+                "/home/jeyson/.xmake/packages/p/python/3.9.6/e7531dee1e76415f90f489fb181937f7/Scripts",
+                "/home/jeyson/.xmake/packages/n/ninja/1.10.2/896d7cac28ca484eb4ee8a25d2c9c9c7/bin",
+                "/home/jeyson/.xmake/packages/m/meson/0.60.1/40884fc190cd4aae93c03a42db4f7f02/bin",
+                "/home/jeyson/.xmake/packages/l/libiconv/1.16/86e4b1ca86b741449180f2851cd9186a/bin"
+            }
+        },
+        linkdirs = "/usr/lib/x86_64-linux-gnu",
+        sysincludedirs = {
+            "/usr/include/libmount",
+            "/usr/include/blkid",
+            "/usr/include/glib-2.0",
+            "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+        },
+        libfiles = {
+            "/usr/lib/x86_64-linux-gnu/libffi.a",
+            "/usr/lib/x86_64-linux-gnu/libffi_pic.a",
+            "/usr/lib/x86_64-linux-gnu/libffi.so",
+            "/usr/lib/x86_64-linux-gnu/libz.a",
+            "/usr/lib/x86_64-linux-gnu/libz.so"
+        },
+        __requirestr = "glib",
+        __enabled = true
+    }
+}

@@ -1,0 +1,31 @@
+{
+    values = {
+        "/usr/bin/g++",
+        {
+            "-m64",
+            "-L/usr/lib/x86_64-linux-gnu",
+            "-s",
+            "-lgtk-3",
+            "-lgdk-3",
+            "-lpangocairo-1.0",
+            "-lpango-1.0",
+            "-lharfbuzz",
+            "-latk-1.0",
+            "-lcairo-gobject",
+            "-lcairo",
+            "-lgdk_pixbuf-2.0",
+            "-lgio-2.0",
+            "-lgobject-2.0",
+            "-lglib-2.0",
+            "-lgthread-2.0",
+            "-lgmodule-2.0",
+            "-lffi",
+            "-lffi_pic",
+            "-lpcre",
+            "-lz"
+        }
+    },
+    files = {
+        "build/.objs/dbus/linux/x86_64/release/gens/./dbus.c.o"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    tool_target_dbus_linux_x86_64_ld = {
+        toolname = "gxx",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            plat = "linux",
+            arch = "x86_64"
+        },
+        program = "/usr/bin/g++"
+    },
+    tool_target_dbus_linux_x86_64_cc = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            arch = "x86_64",
+            plat = "linux"
+        },
+        toolname = "gcc",
+        program = "/usr/bin/gcc"
+    }
+}
